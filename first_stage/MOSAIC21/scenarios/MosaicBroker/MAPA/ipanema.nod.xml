@@ -1,0 +1,37 @@
+<nodes>
+	<node id="-106091" x="683786.11" y="7457131.84" z="0.00" type="traffic_light" />
+	<node id="-106093" x="683800.13" y="7457111.04" z="0.00" type="traffic_light" />
+	<node id="-106095" x="683783.12" y="7457095.58" z="0.00" type="traffic_light" />
+	<node id="-106185" x="683774.86" y="7457010.40" z="0.00" type="traffic_light" />
+	<node id="-106187" x="683791.94" y="7456995.10" z="0.00" type="traffic_light" />
+	<node id="-116141" x="683766.31" y="7457113.05" z="0.00" type="traffic_light" />
+	<node id="1345381151" x="683772.68" y="7456855.62" z="0.00" type="priority" />
+	<node id="1587555132" x="683789.09" y="7457174.13" z="0.00" type="priority" />
+	<node id="1587555142" x="684006.76" y="7457163.12" z="0.00" type="priority" />
+	<node id="1587555227" x="683999.82" y="7457115.01" z="0.00" type="traffic_light" />
+	<node id="1587555228" x="683784.69" y="7457111.81" z="0.00" type="priority" />
+	<node id="1587555231" x="683979.11" y="7457102.15" z="0.00" type="traffic_light" />
+	<node id="1587555241" x="683998.77" y="7457100.87" z="0.00" type="priority" />
+	<node id="1587555243" x="684016.13" y="7457099.55" z="0.00" type="traffic_light" />
+	<node id="1587555254" x="683997.55" y="7457084.55" z="0.00" type="traffic_light" />
+	<node id="1587555298" x="684003.78" y="7456979.19" z="0.00" type="traffic_light" />
+	<node id="1587555304" x="683988.81" y="7456965.18" z="0.00" type="traffic_light" />
+	<node id="1587555440" x="684067.00" y="7456836.03" z="0.00" type="priority" />
+	<node id="1901583832" x="683919.73" y="7456845.85" z="0.00" type="priority" />
+	<node id="2296638089" x="683688.68" y="7456862.41" z="0.00" type="priority" />
+	<node id="2331227907" x="683779.78" y="7456868.19" z="0.00" type="traffic_light" />
+	<node id="2331227949" x="683995.03" y="7456853.54" z="0.00" type="traffic_light" />
+	<node id="2331227955" x="683749.14" y="7456857.87" z="0.00" type="traffic_light" />
+	<node id="2331228011" x="683993.77" y="7456841.42" z="0.00" type="traffic_light" />
+	<node id="25038509" x="684081.42" y="7457094.83" z="0.00" type="priority" />
+	<node id="25038515" x="683773.51" y="7456996.42" z="0.00" type="priority" />
+	<node id="25038516" x="683990.17" y="7456980.89" z="0.00" type="priority" />
+	<node id="25038517" x="684075.92" y="7456973.31" z="0.00" type="priority" />
+	<node id="25038521" x="683763.18" y="7456869.41" z="0.00" type="priority" />
+	<node id="25038522" x="683976.78" y="7456855.02" z="0.00" type="priority" />
+	<node id="25038523" x="684067.88" y="7456849.06" z="0.00" type="priority" />
+	<node id="25038596" x="683710.18" y="7457116.85" z="0.00" type="priority" />
+	<node id="25038599" x="683700.97" y="7457002.21" z="0.00" type="priority" />
+	<node id="25038604" x="683689.14" y="7456875.29" z="0.00" type="priority" />
+	<node id="3738891767" x="683764.49" y="7456893.75" z="0.00" type="traffic_light" />
+</nodes>

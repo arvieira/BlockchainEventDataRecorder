@@ -1,0 +1,143 @@
+initializing database
+loading database... 
+success
+
+start creating graph from database
+location index created in 0.006613767s, size:25, leafs:13, precision:300, depth:2, checksum:18, entries:[4, 4], entriesPerLeaf:1.9230769
+flushing graph car,bike|RAM|3D|turn_cost|5,14,4,3,3, details:edges:20(1MB), nodes:18(1MB), name:(1MB), geo:336(1MB), bounds:-43.2150582,-43.1945812,-22.9878797,-22.9801804,0.0,0.0, totalMB:252, usedMB:27)
+flushed graph totalMB:252, usedMB:27)
+generating routes...
+...finished generating routes
+exporting routes...
+writing routes information to: ipanema.rou.xml
+finished
+initializing database
+loading database... 
+success
+
+start creating graph from database
+location index created in 0.004646377s, size:25, leafs:13, precision:300, depth:2, checksum:18, entries:[4, 4], entriesPerLeaf:1.9230769
+flushing graph car,bike|RAM|3D|turn_cost|5,14,4,3,3, details:edges:20(1MB), nodes:18(1MB), name:(1MB), geo:336(1MB), bounds:-43.2150582,-43.1945812,-22.9878797,-22.9801804,0.0,0.0, totalMB:252, usedMB:28)
+flushed graph totalMB:252, usedMB:28)
+generating routes...
+...finished generating routes
+exporting routes...
+writing routes information to: ipanema.rou-0.xml
+finished
+initializing database
+loading database... 
+success
+
+start creating graph from database
+location index created in 0.004406132s, size:25, leafs:13, precision:300, depth:2, checksum:18, entries:[4, 4], entriesPerLeaf:1.9230769
+flushing graph car,bike|RAM|3D|turn_cost|5,14,4,3,3, details:edges:20(1MB), nodes:18(1MB), name:(1MB), geo:336(1MB), bounds:-43.2150582,-43.1945812,-22.9878797,-22.9801804,0.0,0.0, totalMB:252, usedMB:28)
+flushed graph totalMB:252, usedMB:28)
+generating routes...
+...finished generating routes
+exporting routes...
+writing routes information to: ipanema.rou-1.xml
+finished
+initializing database
+loading database... 
+success
+
+start creating graph from database
+location index created in 0.005726867s, size:25, leafs:13, precision:300, depth:2, checksum:18, entries:[4, 4], entriesPerLeaf:1.9230769
+flushing graph car,bike|RAM|3D|turn_cost|5,14,4,3,3, details:edges:20(1MB), nodes:18(1MB), name:(1MB), geo:336(1MB), bounds:-43.2150582,-43.1945812,-22.9878797,-22.9801804,0.0,0.0, totalMB:252, usedMB:27)
+flushed graph totalMB:252, usedMB:27)
+generating routes...
+...finished generating routes
+exporting routes...
+writing routes information to: ipanema.rou-2.xml
+finished
+initializing database
+loading database... 
+success
+
+start creating graph from database
+location index created in 0.005388513s, size:25, leafs:13, precision:300, depth:2, checksum:18, entries:[4, 4], entriesPerLeaf:1.9230769
+flushing graph car,bike|RAM|3D|turn_cost|5,14,4,3,3, details:edges:20(1MB), nodes:18(1MB), name:(1MB), geo:336(1MB), bounds:-43.2150582,-43.1945812,-22.9878797,-22.9801804,0.0,0.0, totalMB:252, usedMB:28)
+flushed graph totalMB:252, usedMB:28)
+generating routes...
+...finished generating routes
+exporting routes...
+writing routes information to: ipanema.rou-3.xml
+finished
+initializing database
+loading database... 
+success
+
+start creating graph from database
+location index created in 0.006080697s, size:25, leafs:13, precision:300, depth:2, checksum:18, entries:[4, 4], entriesPerLeaf:1.9230769
+flushing graph car,bike|RAM|3D|turn_cost|5,14,4,3,3, details:edges:20(1MB), nodes:18(1MB), name:(1MB), geo:336(1MB), bounds:-43.2150582,-43.1945812,-22.9878797,-22.9801804,0.0,0.0, totalMB:252, usedMB:27)
+flushed graph totalMB:252, usedMB:27)
+generating routes...
+...finished generating routes
+exporting routes...
+writing routes information to: ipanema.rou-4.xml
+finished
+initializing database
+loading database... 
+success
+
+start creating graph from database
+location index created in 0.005796326s, size:25, leafs:13, precision:300, depth:2, checksum:18, entries:[4, 4], entriesPerLeaf:1.9230769
+flushing graph car,bike|RAM|3D|turn_cost|5,14,4,3,3, details:edges:20(1MB), nodes:18(1MB), name:(1MB), geo:336(1MB), bounds:-43.2150582,-43.1945812,-22.9878797,-22.9801804,0.0,0.0, totalMB:252, usedMB:27)
+flushed graph totalMB:252, usedMB:27)
+generating routes...
+...finished generating routes
+exporting routes...
+writing routes information to: ipanema.rou-5.xml
+finished
+initializing database
+loading database... 
+success
+
+start creating graph from database
+location index created in 0.00590386s, size:25, leafs:13, precision:300, depth:2, checksum:18, entries:[4, 4], entriesPerLeaf:1.9230769
+flushing graph car,bike|RAM|3D|turn_cost|5,14,4,3,3, details:edges:20(1MB), nodes:18(1MB), name:(1MB), geo:336(1MB), bounds:-43.2150582,-43.1945812,-22.9878797,-22.9801804,0.0,0.0, totalMB:252, usedMB:28)
+flushed graph totalMB:252, usedMB:28)
+generating routes...
+...finished generating routes
+exporting routes...
+writing routes information to: ipanema.rou-6.xml
+finished
+initializing database
+loading database... 
+success
+
+start creating graph from database
+location index created in 0.00607045s, size:25, leafs:13, precision:300, depth:2, checksum:18, entries:[4, 4], entriesPerLeaf:1.9230769
+flushing graph car,bike|RAM|3D|turn_cost|5,14,4,3,3, details:edges:20(1MB), nodes:18(1MB), name:(1MB), geo:336(1MB), bounds:-43.2150582,-43.1945812,-22.9878797,-22.9801804,0.0,0.0, totalMB:252, usedMB:27)
+flushed graph totalMB:252, usedMB:27)
+generating routes...
+...finished generating routes
+exporting routes...
+writing routes information to: ipanema.rou-7.xml
+finished
+initializing database
+loading database... 
+success
+
+start creating graph from database
+location index created in 0.005639662s, size:25, leafs:13, precision:300, depth:2, checksum:18, entries:[4, 4], entriesPerLeaf:1.9230769
+flushing graph car,bike|RAM|3D|turn_cost|5,14,4,3,3, details:edges:20(1MB), nodes:18(1MB), name:(1MB), geo:336(1MB), bounds:-43.2150582,-43.1945812,-22.9878797,-22.9801804,0.0,0.0, totalMB:252, usedMB:28)
+flushed graph totalMB:252, usedMB:28)
+generating routes...
+...finished generating routes
+exporting routes...
+writing routes information to: ipanema.rou-8.xml
+finished
+initializing database
+loading database... 
+success
+
+start creating graph from database
+location index created in 0.004727561s, size:25, leafs:13, precision:300, depth:2, checksum:18, entries:[4, 4], entriesPerLeaf:1.9230769
+flushing graph car,bike|RAM|3D|turn_cost|5,14,4,3,3, details:edges:20(1MB), nodes:18(1MB), name:(1MB), geo:336(1MB), bounds:-43.2150582,-43.1945812,-22.9878797,-22.9801804,0.0,0.0, totalMB:252, usedMB:27)
+flushed graph totalMB:252, usedMB:27)
+generating routes...
+...finished generating routes
+exporting routes...
+writing routes information to: ipanema.rou-9.xml
+finished

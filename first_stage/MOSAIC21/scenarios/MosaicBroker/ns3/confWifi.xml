@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wifi>
+    <!-- IPv4 address generator -->
+    <ipConfiguration>
+        <ip address="192.168.0.0" mask="255.255.0.0"/>
+    </ipConfiguration>
+    <!-- Calculate a propagation delay -->
+    <propagationDelayModel>
+        <delay model= "ns3::NonePropagationDelayModel"/>
+    </propagationDelayModel>
+    <!-- Modelize the propagation loss through a transmission medium -->
+    <propagationLossModel>
+        <loss model= "ns3::FriisPropagationLossModel"/>
+    </propagationLossModel>
+    <wifiConfiguration>
+        <!-- Create non QoS-enabled MAC layers -->
+        <wifiMac property="type" value="ns3::AdhocWifiMac"/>
+        <!-- Wifi PHY mode -->
+        <wifiManager property="phyMode" value="OfdmRate54Mbps"/>
+        <!-- Wifi manager -->
+        <wifiManager property="type" value="ns3::ConstantRateWifiManager"/>
+        <!-- The energy of a received signal should be higher than this threshold (dbm) to allow the PHY layer to detect the signal -->
+        <wifiPhy property="EnergyDetectionThreshold" value="-81.0"/>
+        <!-- The energy of a received signal should be higher than this threshold (dbm) to allow the PHY layer to declare CCA BUSY state -->
+        <wifiPhy property="CcaMode1Threshold" value="-99.0"/>
+        <!-- Transmission gain (dB) -->
+        <wifiPhy property="TxGain" value="0.0"/>
+        <!-- Reception gain (dB) -->
+        <wifiPhy property="RxGain" value="0.0"/>
+        <!--  Number of transmission power levels available between TxPowerStart and TxPowerEnd included -->
+        <wifiPhy property="TxPowerLevels" value="1"/>
+        <!-- Maximum available transmission level (dbm) -->
+        <wifiPhy property="TxPowerEnd" value="17.0"/>
+        <!-- Minimum available transmission level (dbm) -->
+        <wifiPhy property="TxPowerStart" value="17.0"/>
+        <!-- Loss (dB) in the Signal-to-Noise-Ratio due to non-idealities in the receiver -->
+        <wifiPhy property="RxNoiseFigure" value="0.0"/>
+        <!-- Channel center frequency = Channel starting frequency + 5 MHz * (nch - 1) -->
+        <wifiPhy property="ChannelNumber" value="1"/>
+      </wifiConfiguration>  
+</wifi>

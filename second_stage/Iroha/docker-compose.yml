@@ -1,0 +1,253 @@
+version: "2.4"
+
+services:
+  veh_0:
+    image: hyperledger/iroha:latest
+    container_name: veh_0
+    ports:
+      - 10001:10001
+      - 50051:50051
+    environment:
+      - "KEY=veh_0"
+      - "IROHA_POSTGRES_HOST=postgres"
+    volumes:
+      - ./volumes/veh_0:/tmp/block_store
+      - ./conf/veh_0:/opt/iroha_data
+    depends_on:
+      - postgres
+    networks:
+      - iroha-net
+      - iroha-db-net
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+    restart: always
+
+  veh_1:
+    image: hyperledger/iroha:latest
+    container_name: veh_1
+    ports:
+      - 10002:10001
+      - 50052:50051
+    environment:
+      - "KEY=veh_1"
+      - "IROHA_POSTGRES_HOST=postgres"
+    volumes:
+      - ./volumes/veh_1:/tmp/block_store
+      - ./conf/veh_1:/opt/iroha_data
+    depends_on:
+      - postgres
+    networks:
+      - iroha-net
+      - iroha-db-net
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+    restart: always
+
+  veh_2:
+    image: hyperledger/iroha:latest
+    container_name: veh_2
+    ports:
+      - 10003:10001
+      - 50053:50051
+    environment:
+      - "KEY=veh_2"
+      - "IROHA_POSTGRES_HOST=postgres"
+    volumes:
+      - ./volumes/veh_2:/tmp/block_store
+      - ./conf/veh_2:/opt/iroha_data
+    depends_on:
+      - postgres
+    networks:
+      - iroha-net
+      - iroha-db-net
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+    restart: always
+
+  veh_3:
+    image: hyperledger/iroha:latest
+    container_name: veh_3
+    ports:
+      - 10004:10001
+      - 50054:50051
+    environment:
+      - "KEY=veh_3"
+      - "IROHA_POSTGRES_HOST=postgres"
+    volumes:
+      - ./volumes/veh_3:/tmp/block_store
+      - ./conf/veh_3:/opt/iroha_data
+    depends_on:
+      - postgres
+    networks:
+      - iroha-net
+      - iroha-db-net
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+    restart: always
+
+
+  veh_4:
+    image: hyperledger/iroha:latest
+    container_name: veh_4
+    ports:
+      - 10005:10001
+      - 50055:50051
+    environment:
+      - "KEY=veh_4"
+      - "IROHA_POSTGRES_HOST=postgres"
+    volumes:
+      - ./volumes/veh_4:/tmp/block_store
+      - ./conf/veh_4:/opt/iroha_data
+    depends_on:
+      - postgres
+    networks:
+      - iroha-net
+      - iroha-db-net
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+    restart: always
+
+
+  veh_5:
+    image: hyperledger/iroha:latest
+    container_name: veh_5
+    ports:
+      - 10006:10001
+      - 50056:50051
+    environment:
+      - "KEY=veh_5"
+      - "IROHA_POSTGRES_HOST=postgres"
+    volumes:
+      - ./volumes/veh_5:/tmp/block_store
+      - ./conf/veh_5:/opt/iroha_data
+    depends_on:
+      - postgres
+    networks:
+      - iroha-net
+      - iroha-db-net
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+    restart: always
+
+
+  veh_6:
+    image: hyperledger/iroha:latest
+    container_name: veh_6
+    ports:
+      - 10007:10001
+      - 50057:50051
+    environment:
+      - "KEY=veh_6"
+      - "IROHA_POSTGRES_HOST=postgres"
+    volumes:
+      - ./volumes/veh_6:/tmp/block_store
+      - ./conf/veh_6:/opt/iroha_data
+    depends_on:
+      - postgres
+    networks:
+      - iroha-net
+      - iroha-db-net
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+    restart: always
+
+
+  veh_7:
+    image: hyperledger/iroha:latest
+    container_name: veh_7
+    ports:
+      - 10008:10001
+      - 50058:50051
+    environment:
+      - "KEY=veh_7"
+      - "IROHA_POSTGRES_HOST=postgres"
+    volumes:
+      - ./volumes/veh_7:/tmp/block_store
+      - ./conf/veh_7:/opt/iroha_data
+    depends_on:
+      - postgres
+    networks:
+      - iroha-net
+      - iroha-db-net
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+    restart: always
+
+
+  veh_8:
+    image: hyperledger/iroha:latest
+    container_name: veh_8
+    ports:
+      - 10009:10001
+      - 50059:50051
+    environment:
+      - "KEY=veh_8"
+      - "IROHA_POSTGRES_HOST=postgres"
+    volumes:
+      - ./volumes/veh_8:/tmp/block_store
+      - ./conf/veh_8:/opt/iroha_data
+    depends_on:
+      - postgres
+    networks:
+      - iroha-net
+      - iroha-db-net
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+    restart: always
+
+
+  postgres:
+    image: postgres:9.5
+    container_name: postgres
+    healthcheck:
+      test: pg_isready -U postgres
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 300s
+    environment:
+      POSTGRES_PASSWORD: postgres
+    expose:
+      - 5432
+    volumes:
+      - psql_storage:/var/lib/postgresql/data
+    networks:
+      - iroha-db-net
+    restart: always
+    command: "-c max_prepared_transactions=100"
+
+volumes:
+  psql_storage:
+
+networks:
+  iroha-net:
+    name: iroha-net
+  iroha-db-net:
+    name: iroha-db-net

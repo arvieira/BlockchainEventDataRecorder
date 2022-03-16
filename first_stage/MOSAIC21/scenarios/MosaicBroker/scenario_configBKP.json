@@ -1,0 +1,36 @@
+{
+    "simulation": {
+        "id": "BlockchainVehicleUnit",
+        "duration": "60s",
+        "randomSeed": 268965854,
+        "projection": {
+            "centerCoordinates": {
+                "latitude": -22.98516,
+                "longitude": -43.20605
+            },
+            "cartesianOffset": {
+                "x": -682964.78,
+                "y": -7456682.16
+            }
+        },
+        "network": {
+            "netMask": "255.255.0.0",
+            "vehicleNet": "10.1.0.0",
+            "rsuNet": "10.2.0.0",
+            "tlNet": "10.3.0.0",
+            "csNet": "10.4.0.0",
+            "serverNet": "10.5.0.0",
+            "tmcNet": "10.6.0.0"
+        }
+    },
+    "federates": {
+        "application": true,
+        "cell": false,
+        "environment": true,
+        "sns": true,
+        "ns3": false,
+        "omnetpp": false,
+        "output": true,
+        "sumo": true
+    }
+}
