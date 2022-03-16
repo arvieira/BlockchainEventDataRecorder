@@ -98,7 +98,7 @@ This transaction amount is close to the same values found as Iroha's performance
 </p>
 
 <p align="center">
-    <img src="images/GroupedStacked.png">
+    <img src="images/GroupedStacked.png" width="582">
 </p>
 
 <p style="text-align:justify">
@@ -111,7 +111,7 @@ However, experiments with more vehicles consolidate more transactions, indicatin
 </p>
 
 <p align="center">
-    <img src="images/30s_Blocks.png">
+    <img src="images/30s_Blocks.png" width="582">
 </p>
 
 <p style="text-align:justify">
@@ -134,3 +134,11 @@ It also could exchange the received credits for digital or fiat currency upon pr
 At this moment, the vehicle "delivers" its chains in exchange for the reward prize indicated in its chain blocks.
 The more vehicles sell the same information, the higher the trust in data.
 </p>
+
+## Complementary Results
+<p style="text-align:justify"></p>
+<p style="text-align:justify"></p>
+<p style="text-align:justify"></p>
+<p style="text-align:justify"></p>
+<p style="text-align:justify"></p>
+<p style="text-align:justify"></p>
